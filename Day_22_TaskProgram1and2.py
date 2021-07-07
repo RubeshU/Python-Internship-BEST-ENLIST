@@ -1,10 +1,10 @@
 from PIL import Image
 import PyPDF2
-'''im1 = Image.open(r"C:\\Users\\91882\\Pictures\\Saved Pictures\\SampleImage.jpg")
+im1 = Image.open(r"C:\\Users\\91882\\Pictures\\Saved Pictures\\SampleImage.jpg")
 print("Copied Image.....")
 print("Showing image.....")
 im2 = im1.copy()
-im2.show()'''
+im2.show()
  
 def PDFmerge(pdfs, output):
     pdfMerger = PyPDF2.PdfFileMerger()
