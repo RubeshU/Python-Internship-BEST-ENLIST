@@ -1,6 +1,5 @@
 #importing the necessary packages
 import xlrd
-import pandas as pd
 from PIL import Image, ImageDraw, ImageFont
 
 #opening the excel sheet that contains information
